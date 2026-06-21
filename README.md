@@ -32,3 +32,7 @@ Das Projekt enthält eine Menge Optimierungen, damit das Ganze möglichst perfor
 - **Multithreading**
 - **Custom Buffer Mapping**
 - **Bit packing**
+
+![default](images/default.png)
+![removingvoxels](images/removing.png)
+![addingingvoxels](images/adding.png)
