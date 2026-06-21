@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/mul_by_pow2_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/mul_by_pow2_test[1]_tests.cmake")
+else()
+  add_test(mul_by_pow2_test_NOT_BUILT mul_by_pow2_test_NOT_BUILT)
+endif()

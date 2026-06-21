@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/concat_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/concat_test[1]_tests.cmake")
+else()
+  add_test(concat_test_NOT_BUILT concat_test_NOT_BUILT)
+endif()

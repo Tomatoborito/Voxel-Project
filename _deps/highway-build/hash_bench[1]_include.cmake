@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/hash_bench[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/hash_bench[1]_tests.cmake")
+else()
+  add_test(hash_bench_NOT_BUILT hash_bench_NOT_BUILT)
+endif()

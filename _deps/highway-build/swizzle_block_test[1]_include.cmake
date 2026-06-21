@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/swizzle_block_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/swizzle_block_test[1]_tests.cmake")
+else()
+  add_test(swizzle_block_test_NOT_BUILT swizzle_block_test_NOT_BUILT)
+endif()

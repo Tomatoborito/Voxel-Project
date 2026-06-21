@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\52004e51e9313023a2c47e8d6e0d9d84\highway-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\2422ce274c18dc262ffaed8b150404aa\highway-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\1dc5d2c44eaa55dfa9c4f18a9e190696\highway-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\highway-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4AD936CE-827F-3F8D-840B-F2C927304F84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

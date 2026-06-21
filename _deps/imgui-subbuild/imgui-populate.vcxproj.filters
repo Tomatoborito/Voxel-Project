@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\d64e009d58a7636b70abc4da3fda11d7\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\789a7f8e0639aca467a46b1869608425\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\f1c2761bbef7a30ce4a86e6bf3da33cb\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\.codingshit\traktorprojekt - Copy\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B60633E-15E8-312E-814F-7AD06BE3DDD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

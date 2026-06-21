@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10D13477-8A8C-3072-96EC-20A3FAA6272B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/.codingshit/traktorprojekt - Copy/_deps/highway-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\pythoninstallation\Lib\site-packages\cmake\data\bin\cmake.exe "-SE:/.codingshit/traktorprojekt - Copy/_deps/highway-subbuild" "-BE:/.codingshit/traktorprojekt - Copy/_deps/highway-subbuild" --check-stamp-file "E:/.codingshit/traktorprojekt - Copy/_deps/highway-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\4.2.1\CMakeSystem.cmake;E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\highway-populate-prefix\tmp\highway-populate-mkdirs.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeGenericSystem.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeSystem.cmake.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\PatchInfo.txt.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\RepositoryInfo.txt.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\UpdateInfo.txt.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\cfgcmd.txt.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\gitclone.cmake.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\gitupdate.cmake.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\mkdirs.cmake.in;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\Platform\Windows.cmake;E:\pythoninstallation\Lib\site-packages\cmake\data\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{47E0A55E-30FC-38B7-9AF3-66D67B416221}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\.codingshit\traktorprojekt - Copy\_deps\highway-subbuild\highway-populate.vcxproj">
+      <Project>{F4E26591-6F08-3649-8082-0EBD0E7BE593}</Project>
+      <Name>highway-populate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

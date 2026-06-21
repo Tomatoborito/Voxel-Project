@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/topology_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/topology_test[1]_tests.cmake")
+else()
+  add_test(topology_test_NOT_BUILT topology_test_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/blockwise_combine_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/blockwise_combine_test[1]_tests.cmake")
+else()
+  add_test(blockwise_combine_test_NOT_BUILT blockwise_combine_test_NOT_BUILT)
+endif()

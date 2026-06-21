@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/minmax_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/minmax_test[1]_tests.cmake")
+else()
+  add_test(minmax_test_NOT_BUILT minmax_test_NOT_BUILT)
+endif()

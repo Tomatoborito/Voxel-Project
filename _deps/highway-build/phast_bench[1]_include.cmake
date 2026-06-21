@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/phast_bench[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/phast_bench[1]_tests.cmake")
+else()
+  add_test(phast_bench_NOT_BUILT phast_bench_NOT_BUILT)
+endif()

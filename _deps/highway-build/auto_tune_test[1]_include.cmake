@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/auto_tune_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/auto_tune_test[1]_tests.cmake")
+else()
+  add_test(auto_tune_test_NOT_BUILT auto_tune_test_NOT_BUILT)
+endif()

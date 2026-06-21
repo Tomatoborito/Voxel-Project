@@ -1,0 +1,5 @@
+if(EXISTS "E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/if_test[1]_tests.cmake")
+  include("E:/.codingshit/traktorprojekt - Copy/_deps/highway-build/if_test[1]_tests.cmake")
+else()
+  add_test(if_test_NOT_BUILT if_test_NOT_BUILT)
+endif()
